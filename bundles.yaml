@@ -1,0 +1,31 @@
+panopticon:
+  series: trusty
+  services:
+    heka-sub:
+      charm: "local:trusty/heka-sub"
+    influxdb:
+      charm: "local:trusty/influxdb"
+    docker:
+      charm: "local:trusty/docker"
+      num_units: 1
+    heka-hub:
+      charm: "local:trusty/heka-hub"
+    grafana:
+      charm: "local:trusty/grafana"
+      to: "heka-hub"
+    kibana:
+      charm: "local:trusty/kibana"
+      to: "heka-hub"
+    gunicorn:
+      charm: "local:trusty/gunicorn"
+    graphite:
+      charm: "local:trusty/graphite-sub"
+  relations:
+    - - "heka-hub:whisper_out"
+      - "graphite:whisper_in"
+    - - "graphite"
+      - "gunicorn"
+    - - "heka-sub:docker_logging"
+      - "docker:logging"
+    - - "heka-sub:heka_out"
+      - "heka-hub:heka_in"
