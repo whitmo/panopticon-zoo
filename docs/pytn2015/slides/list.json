@@ -1,15 +1,72 @@
 [
     "index.md",
-    {
-        "filename": "hi.md",
-        "attr": {
-            "data-background": "#ff0000"
+    [
+        {
+            "filename": "hi.md",
+            "attr": {
+                "data-background": "#000000"
+            }
+        },
+        {
+            "filename": "im.md",
+            "attr": {
+                "data-background": "#000000"
+            }
         }
-    },
-    {
-        "filename": "im.md",
-        "attr": {
-            "data-background": "#ff0000"
-        }
-    }
+    ],
+    [
+        "failure.md",
+        "underpromise.md",
+        "deliver.md",
+        "kiss.md"
+    ],
+    "i-work-for-canonica.md",
+    [
+        "juju.md",
+        "configuration-management.md",
+        "orchestration.md"
+    ],
+    [
+        "words.md",
+        "power.md",
+        "listening.md",
+        "magic.md"
+    ],
+    [
+        "panoptes.md",
+        "the-panopticon.md"
+    ],
+    [
+        "monitoring.md",
+        "usage-is-a-test.md",
+        "uncertainty.md",
+        "where-da-gold-at.md",
+        "negative-case.md"
+    ],
+    [
+        "informal-history-of-monitoring-software.md",
+        "old-school.md",
+        "middle-school.md",
+        "new-school.md",
+        "memoaas.md"
+    ],
+    [
+        "informal-history-of-heka.md",
+        "activate-the-ka.md",
+        "norcal.md"
+    ],
+    [
+        "architecture-of-heka.md",
+        "inputs.md",
+        "decoders.md",
+        "filters.md",
+        "encoders.md",
+        "outputs.md"
+    ],
+    [
+        "using-heka.md",
+        "operational-characteristics.md"
+    ],
+    "demo.md"
+
 ]
