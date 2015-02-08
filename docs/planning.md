@@ -24,9 +24,18 @@ http://statsd.readthedocs.org/en/latest/index.html
 https://structlog.readthedocs.org/en/0.4.2/
 http://johnveldboom.com/posts/58/heka-json-encoder
 
+http://blog.docker.com/2013/07/effortless-monitoring-with-collectd-graphite-and-docker/
+
+https://github.com/arcus-io/docker-kibana
+https://github.com/balsamiq/docker-kibana/blob/master/Dockerfile
+
+https://registry.hub.docker.com/u/famly/graphite/dockerfile/
+
 bg:
 "Employ the KA"
 http://www.joanannlansberry.com/journal/pathmark/heka.html
+http://en.wikipedia.org/wiki/Heka_%28god%29
+
 
 lpeg:
 http://stackoverflow.com/questions/19541065/lpeg-increment-for-each-match
@@ -73,6 +82,11 @@ SaaS
  - Librato
  - zabbix
  - ...
+
+UDP:
+
+https://twitter.com/aphyr/status/563427733577818112
+
 
 
 # ES / Kibana

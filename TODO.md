@@ -11,6 +11,12 @@ Demo
  - acmeweb
  - FURDB
 
+
+- fix shipping
+
+- logstreamer example
+-
+
 Slide
 
  - gotta have slides no
@@ -23,3 +29,6 @@ Website
 
  - dedupe filter
  - balancing/weighting filter
+
+
+## scribble w/ service & unit
