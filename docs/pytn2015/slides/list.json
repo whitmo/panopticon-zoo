@@ -64,9 +64,13 @@
         "outputs.md"
     ],
     [
-        "using-heka.md",
-        "operational-characteristics.md"
-    ],
-    "demo.md"
-
+        {
+            "filename": "using-heka.md",
+            "attr": {
+                "data-background": "#000000"
+            }
+        },
+        "operational-characteristics.md",
+        "demo.md"
+    ]
 ]
